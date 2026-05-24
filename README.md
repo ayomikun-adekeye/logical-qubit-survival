@@ -1,1 +1,3 @@
 # logical-qubit-survival
+
+In this repo, is another quantum memory experiment, but it's different form the last one a little. In the last one I was estimating threshold. But in this one, I was looking at how an increased number of error detection rounds affect the experiment. Measurement gives more chance for errors, so even though more rounds gives us more data to work with which is good, it will continue to introduce noise until errors have rendered the system useless. I went through the basic workflow. Define circuit, pick a noise model to inject noise, then simulate it to get error detection data for decoding. then visualise!
