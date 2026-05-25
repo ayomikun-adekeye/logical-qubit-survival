@@ -5,8 +5,13 @@ In this repo, I did another quantum memory experiment. Unlike the last one where
 **The Workflow**
 
 Define the circuit for the code you want to study
+
 Inject some noise via noise models
+
 Simulate & Decode 
+
 Visualize results by plotting the logical error rate against the number of rounds.
+
+
 
 I did this with Riverlane's Deltakit, an SDK dedicated to quantum error correction.
